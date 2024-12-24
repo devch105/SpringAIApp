@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
+
+.main-app{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-card {
+  font-size: 2rem;
+  height: auto; /* Allow height to adjust */
+  background-color: #1b84f5; /* Bootstrap primary color */
+  color: white; /* White text for contrast */
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  padding: 20px; /* Add padding for better spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); /* Soft gradient background */
+  color: #333; /* Dark text for readability */
+  font-family: 'Roboto', sans-serif; /* Default font for body text */
+}
+.container-res {
+  width: 100%;
+  max-width: 600px; /* Max width for better readability */
+}
+.card {
+  border-radius: 0.5rem; /* Rounded corners */
+}
+/* Card Styles for Responses */
+.card {
+  border-radius: 0.5rem; /* Rounded corners */
+}
+
+/* Typography for Titles and Texts */
+.card-title {
+  font-family: 'Montserrat', sans-serif; /* Unique font for titles */
+  font-weight: bold; /* Bold titles for emphasis */
+}
+
+.card-text {
+  font-size: 1rem; /* Standard size for card text */
+}
+
+/* Button Styles */
+.btn {
+  transition: background-color 0.3s ease; /* Smooth transition for button hover effect */
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
